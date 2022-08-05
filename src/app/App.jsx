@@ -1,4 +1,4 @@
-import { Task1 } from "task1/Task1";
+import { Task1 } from "../task1/Task1";
 import { GlobalStyle } from "GlobalStyle"
 import { Box } from "common/Box"
 
