@@ -4,7 +4,7 @@ import { Box } from "common/Box"
 
 export function TaskOne() {
 
-    return (<Box width="100%" pt={5} pb={5} bg="bgAvatar">
+    return (<Box width="100%" pt={5} pb={5} bg="bgOne">
                 <Profile
                 username={user.username}
                 tag={user.tag}

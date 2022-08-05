@@ -22,7 +22,7 @@ export const Avatar = styled.img`
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  background-color: ${p => p.theme.colors.bgAvatar};
+  background-color: ${p => p.theme.colors.bgOne};
 `;
 
 export const Name = styled.p`
@@ -36,7 +36,7 @@ export const PostName = styled.p`
   margin-top: ${p => p.theme.space[4]}px;
   font-weight: ${p => p.theme.fontWeights.medium};
   font-size: ${p => p.theme.fontSizes.xm};
-  color: ${p => p.theme.colors.text1};
+  color: ${p => p.theme.colors.textOne};
 `;
 
 export const Stats = styled.ul`
@@ -53,16 +53,16 @@ export const Stats = styled.ul`
     flex-direction: column;
     padding-top: ${p => p.theme.space[5]}px;
     padding-bottom: ${p => p.theme.space[5]}px;
-    border-top: ${p => p.theme.borders.normal} ${p => p.theme.colors.text1};
+    border-top: ${p => p.theme.borders.normal} ${p => p.theme.colors.textOne};
   }
 
   & li:not(:last-child) {
-    border-right: ${p => p.theme.borders.normal} ${p => p.theme.colors.text1};
+    border-right: ${p => p.theme.borders.normal} ${p => p.theme.colors.textOne};
   }
 `;
 
 export const Label = styled.span`
-  color: ${p => p.theme.colors.text1};
+  color: ${p => p.theme.colors.textOne};
 `;
 
 export const Quantity = styled.span`

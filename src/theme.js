@@ -2,8 +2,10 @@ export const theme = Object.freeze({
   colors: {
     black: '#000',
     white: '#fff',
-    text1: '#adb5bf',
-    bgAvatar: '#e7ecf2',
+    textOne: '#adb5bf',
+    textTwo: '#535557',
+    bgOne: '#e7ecf2',
+    bgTwo: '#f1f2f6',
     bgStats: '#f3f6f9',
     primary: '#07c',
     secondary: '#05a',

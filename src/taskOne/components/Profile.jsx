@@ -6,7 +6,7 @@ export function Profile({ username, tag, location, avatar, stats }) {
         <Description>
             <Avatar src={avatar} alt="User avatar" />
             <Name>{username}</Name>
-            <PostName>{tag}</PostName>
+            <PostName>@{tag}</PostName>
             <PostName>{location}</PostName>
         </Description>
 
