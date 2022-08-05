@@ -1,8 +1,8 @@
-import { Profile } from "task1/components/Profile";
-import user from "task1/user.json"
+import { Profile } from "taskOne/components/Profile";
+import user from "taskOne/user.json"
 import { Box } from "common/Box"
 
-export function Task1() {
+export function TaskOne() {
 
     return (<Box width="100%" pt={5} pb={5} bg="bgAvatar">
                 <Profile
