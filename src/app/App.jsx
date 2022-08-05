@@ -1,18 +1,15 @@
-import { Task1 } from "task1/task1";
+import { Task1 } from "task1/Task1";
+import { GlobalStyle } from "GlobalStyle"
+import { Box } from "common/Box"
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      <Task1/>
-    </div>
+    <>
+    <GlobalStyle />
+      <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column">
+        <Task1 />
+      
+      </Box>
+    </>
   );
 };
