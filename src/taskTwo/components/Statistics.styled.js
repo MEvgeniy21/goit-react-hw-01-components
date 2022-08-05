@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const StatContainer = styled.section`
   display: block;
-  width: 500px;
+  width: ${p => p.countItem * 100}px;
   margin-left: auto;
   margin-right: auto;
   font-family: ${p => p.theme.fonts.body};
@@ -21,4 +21,5 @@ export const StatTitle = styled.h2`
 
 export const StatList = styled.ul`
   display: flex;
+  list-style: none;
 `;

@@ -4,7 +4,7 @@ import { StatContainer, StatTitle, StatList } from "./Statistics.styled";
 
 export function Statistics({ title, stats }) {
 
-    return (<StatContainer>
+    return (<StatContainer countItem={stats.length}>
         {title && (<StatTitle>{title.toUpperCase()}</StatTitle>)}
 
         <StatList>
