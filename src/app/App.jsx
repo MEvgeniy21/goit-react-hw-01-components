@@ -1,6 +1,7 @@
 import { TaskOne } from "taskOne/TaskOne";
 import { TaskTwo } from "taskTwo/TaskTwo";
 import { TaskThree } from "taskThree/TaskThree";
+import { TaskFour } from "taskFour/TaskFour";
 import { GlobalStyle } from "GlobalStyle"
 import { Box } from "common/Box"
 
@@ -12,6 +13,7 @@ export const App = () => {
         <TaskOne />
         <TaskTwo />
         <TaskThree />
+        <TaskFour />
       </Box>
     </>
   );
